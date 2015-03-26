@@ -80,7 +80,7 @@ header {
         font-size: 1.7em;
       }
 
-section.services{
+section.services {
   padding:0;
   text-align: left;
 }
@@ -196,6 +196,101 @@ section.news {
         color:#888;
         display: block;
       }
+
+section.content {
+    padding:4em 0 0 0;
+    text-align: left;
+}
+
+  section.content > .description-cta {
+    padding: 0 4%
+  }
+
+    section.content > .description-cta > h1,
+    section.content > .description-cta > h2 {
+      line-height: .3;
+    }
+
+    section.content > .description-cta > h2 {
+      font-size: .8em;
+      font-weight: normal;
+      margin-bottom: 2.5em;
+    }
+
+  section.content .col2 {
+
+  }
+
+    section.content .col2 .image-cta {
+      margin: 0;
+    }
+
+    section.content .col2 .list-cta {
+
+    }
+
+  section.content .contact-cta {
+    background: orange;
+    box-shadow: 1px 1px 7px #CCC, -1px -1px 7pc #CCC ;
+    margin:1.5em 0;
+    padding: 1.5em;
+    text-align: center;
+    width: 100%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+    section.content .contact-cta a {
+      color:#232323;
+      font-size: 1.4em;
+      text-decoration: none;
+    }
+
+  section.content .benefits-cta {
+    padding: .1em 0;
+    text-align: center;
+  }
+
+    section.content .benefits-cta .element-benefit-cta {
+      margin:1.5em auto;
+      width: 50%;
+    }
+
+  section.content .testimony-cta {
+    background: #F7F7F7;
+    padding: .1em 0;
+    text-align: center;
+  }
+
+    section.content .testimony-cta .element-testimony-cta {
+      background: #EEE;
+      box-shadow: 0 0 5px #CDCDCD;
+      margin: 0 auto;
+      padding: 0 5%;
+      position: relative;
+      text-align: left;
+      width: 80%;
+    }
+
+    section.content .testimony-cta .profile-testimony-cta {
+      display: none;
+    }
+
+  section.content .costumers-cta {
+    background: #F7F7F7;
+    padding: 1em 0 0 0;
+    text-align: center;
+  }
+
+    section.content .costumers-cta .element-costumers-cta {
+      display: inline-block;
+      padding:1em 0; 
+      vertical-align: top;
+      width: 150px;
+    }
+
 
 #socialmedia {
   background:#FFF;
